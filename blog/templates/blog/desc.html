@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="jumbotron jumbotron-fluid jumbo-color" style="margin-top: 30px;min-width: 80%;background-color: blanchedalmond;color: black;">
+    <div class="container">
+        <p> {{content.desc|linebreaks}}</p>
+      
+    </div>
+    </div>
+
+
+{% endblock content %}

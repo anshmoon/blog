@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(52, 74 ,79);;
+  color: antiquewhite;
+}
+
+.form-control {
+  background-color: rgb(177, 168, 168);
+}
+
+.jumbo-color {
+  background-color: rgb(35,74, 88);
+}
+
+.sha:hover{                             /*  adding transition effect to boxes in the home page of articles */
+  box-shadow: 10px 20px 30px black;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.pic{
+  /* border-radius: 50%; */
+  width: 180px;
+  height: 140px;
+  overflow: hidden;
+  
+}
+
+/* rgb(114, 126, 73) */
